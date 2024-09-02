@@ -1,7 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
-mongoose.connect("mongodb://localhost:27017");
-
+// mongoose.connect("mongodb://localhost:27017");
+mongoose.connect("mongodb+srv://r555sid:baahubali@cluster0.ngdtb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
 
 // const UserSchema  = new mongoose.Schema({
