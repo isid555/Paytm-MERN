@@ -13,7 +13,7 @@ function App() {
 
           <Routes>
 
-            <Route path={"/signup"} element={ <Signup/> }></Route>
+            <Route path={"/"} element={ <Signup/> }></Route>
             <Route path={"/signin"} element={<Signin/> }></Route>
             <Route path={"/dashboard"} element={<Dashboard/>}></Route>
             <Route path={"/send"} element={<SendMoney/>}></Route>
